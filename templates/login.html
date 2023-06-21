@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Login To check train status</h1>
+    <form method="post" action="checkview">
+        {% csrf_token %}
+        <h1>Enter Details</h1>
+        <h2>Username</h2>
+        <input type="text" value="" id="usersname" name="usersname"><br>
+        <h2>Password</h2>
+        <input type="password" id='pass' name="pass" value="">
+        <input type="submit" value="login">
+        <input type="color" name="" id="">
+    </form>
+</body>
+</html>

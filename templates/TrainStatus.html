@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+      {% csrf_token %}
+</head>
+<body>
+    <h1>Check Train status here</h1>
+    <form method="post" action="TrainName">
+        {% csrf_token %}
+        <input type="text" value="" id="InputValue" name="InputValue"/>
+        <input type="submit" value="Check"/>
+    </form>
+</body>
+</html>
